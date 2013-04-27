@@ -12,9 +12,9 @@ A pretty wicked tool to use during and after CSS development is Harry Roberts' d
 
 ### Usage
 
-1. Grab the HTML from the `just-my-type.html` file and place it in a page of you project.
+1) Grab the HTML from the `just-my-type.html` file and place it in a page of you project.
 
-2. Place the `.jmt-section-heading` css in your porject so that each tag section is easily defined.
+2) Place the `.jmt-section-heading` css in your porject so that each tag section is easily defined.
 
 **Expanded version**
 
@@ -50,4 +50,4 @@ h4.jmt-section-heading {
 </style>
 ```
 
-3. Go ahead and check all your styles against the various HTML elements!
+3) Go ahead and check all your styles against the various HTML elements!
