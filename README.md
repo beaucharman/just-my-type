@@ -4,7 +4,7 @@
 
 *A work in progress*
 
-See Just My Type in action on [Codepen](http://codepen.io/beaucharman/pen/FDBIf).
+See **Just My Type** in action on [Codepen](http://codepen.io/beaucharman/pen/FDBIf).
 
 Tag references from the awesome MDN. Images from Lorempixel.
 
