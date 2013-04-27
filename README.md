@@ -10,6 +10,10 @@ Tag references from the awesome MDN. Images from Lorempixel.
 
 A pretty wicked tool to use during and after CSS development is Harry Roberts' debug.scss, which is a part of the Inuit CSS framework.
 
+### Todo
+
+- Add in an actual checklist system.
+
 ### Usage
 
 1) Grab the HTML from the `just-my-type.html` file and place it in a page of you project.
