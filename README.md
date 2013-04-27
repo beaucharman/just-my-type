@@ -4,6 +4,8 @@
 
 *A work in progress*
 
+See Just My Type in action on [Codepen](http://codepen.io/beaucharman/pen/FDBIf).
+
 Tag references from the awesome MDN. Images from Lorempixel.
 
 A pretty wicked tool to use during and after CSS development is Harry Roberts' debug.scss, which is a part of the Inuit CSS framework.
