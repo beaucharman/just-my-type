@@ -233,7 +233,15 @@
 
   <h2 class="jmt-section-heading" id="text-level"><small>3</small> Text Level Elements</h2>
 
+
+
+  <h3 class="jmt-section-heading" id="abbr"><small>3.11</small> Abbreviation <code>&lt;abbr&gt;</code></h3>
+  <p>The HTML &lt;abbr&gt; element represents an abbreviation and optionally provides a full description for it. If present, the title attribute must contain this full description and nothing else</p>
+  <p>Sample: <abbr title="doctor">dr</abbr></p>
+
   <h3 class="jmt-section-heading" id="a"><small>3.1</small> Anchor <code>&lt;a&gt;</code></h3>
+  <p>The HTML &lt;a&gt; element defines a hyperlink, the named target destination for a hyperlink, or both.</p>
+  <p>Sample:</p>
   <p><a href="#">Anchor</a></p>
   <p><a href="#" class="link">Anchor [class="link"]</a></p>
   <p><a href="#" class="visited">Anchor [class="visited"]</a></p>
@@ -242,55 +250,60 @@
   <p>An achor wapped around an image:</p>
   <p><a href="#"><img src="http://lorempixel.com/200/100/" width="200" height="100" title="lorempixel image"></a></p>
 
-  <h3 class="jmt-section-heading" id="em"><small>3.2</small> Emphasis <code>&lt;em&gt;</code></h3>
-  <p>Element used to <em>put emphasis on certain information</em>. Most browsers display emphased text in italics by default.</p>
-  <p>Sample: <em>This is emphasied text</em>.</p>
-
-  <h3 class="jmt-section-heading" id="strong"><small>3.3</small> Strong <code>&lt;strong&gt;</code></h3>
-  <p>This element stands for "stronger emphasis" and is used for marking more important text.</p>
-  <p>Sample: <strong>This is text with stronger emphasis</strong></p>
-
-  <h3 class="jmt-section-heading" id="small"><small>3.4</small> Small <code>&lt;small&gt;</code></h3>
-  <p><small>Small</small></p>
-
   <h3 class="jmt-section-heading" id="cite"><small>3.5</small> Citation <code>&lt;cite&gt;</code></h3>
-  <p>According to <cite>W3C specification</cite>, we use <code>cite</code> element to define source of a quotation or reference.</p>
+  <p>The HTML &lt;cite&gt; element contains the title of a work, such as a book, song, movie, TV show, sculpture, etc.</p>
   <p>Sample: <cite>This is quotation source</cite></p>
 
-  <h3 class="jmt-section-heading" id="dfn"><small>3.6</small> Definition <code>&lt;dfn&gt;</code></h3>
-  <p>Element used to markup inline definition of a single term.</p>
-  <p>Sample: <dfn>This is definition</dfn></p>
-
   <h3 class="jmt-section-heading" id="code"><small>3.7</small> Code <code>&lt;code&gt;</code></h3>
-  <p>This element informs the browser that it contains a computer code, such as XHTML markup.</p>
+  <p>The HTML &lt;code&gt; element represents a fragment of computer code. By default, it is displayed in the browser's default monospace font.</p>
   <p>Sample: <code>document.write("Hello world");</code></p>
 
-  <h3 class="jmt-section-heading" id="samp"><small>3.8</small> Sample Text Element <code>&lt;samp&gt;</code></h3>
-  <p>This element was intended to identify sample output from a computer program.</p>
-  <p>Sample: <samp>Error: no such file or directory</samp></p>
+  <h3 class="jmt-section-heading" id="dfn"><small>3.6</small> Definition <code>&lt;dfn&gt;</code></h3>
+  <p>The HTML &lt;dfn&gt; element represents the defining instance of a term.</p>
+  <p>Sample: <dfn>This is definition</dfn></p>
+
+  <h3 class="jmt-section-heading" id="em"><small>3.2</small> Emphasis <code>&lt;em&gt;</code></h3>
+  <p>The HTML &lt;em&gt; element marks text that has stress emphasis. The &lt;em&gt; element can be nested, with each level of nesting indicating a greater degree of emphasis.</p>
+  <p>Sample: <em>This is emphasied text</em>.</p>
+
+  <h3 class="jmt-section-heading" id="ins"><small>3.14</small> Insert and Delete <code>&lt;ins&gt; &lt;del&gt;</code></h3>
+  <p>The HTML &lt;ins&gt; element represents a range of text that has been added to a document.</p>
+  <p>The HTML &lt;del&gt; element represents a range of text that has been deleted from a document. This element is often (but need not be) rendered with strike-through text.</p>
+  <p>Sample:</p>
+  <p><ins datetime="20013-04-25T08:15:30+02:00" title="Added new information according to suggestions">This information was just added.</ins><br>
+  <del>While this information is no longer valid.</del></p>
 
   <h3 class="jmt-section-heading" id="kbd"><small>3.9</small> Keyboard <code>&lt;kbd&gt;</code></h3>
-  <p>Information that should be entered by the user.</p>
+  <p>The HTML &lt;kbd&gt; Element represents user input and produces an inline element displayed in the browser's default monotype font.</p>
   <p>Sample: press <kbd>Command + Q</kbd> to close this window. <kbd>ESC</kbd></p>
 
-  <h3 class="jmt-section-heading" id="var"><small>3.10</small> Variable <code>&lt;var&gt;</code></h3>
-  <p>Variables used in computer programs or scripts.</p>
-  <p>Sample: <var>counter</var></p>
-
-  <h3 class="jmt-section-heading" id="abbr"><small>3.11</small> Abbreviation <code>&lt;abbr&gt;</code></h3>
-  <p>Sample: <abbr title="doctor">dr</abbr></p>
-
-  <h3 class="jmt-section-heading" id="q"><small>3.12</small> Inline Quotation <code>&lt;q&gt;</code></h3>
+  <h3 class="jmt-section-heading" id="q"><small>3.12</small> Quotation <code>&lt;q&gt;</code></h3>
+  <p>The HTML &lt;q&gt; element indicates that the enclosed text is a short inline quotation. This element is intended for short quotations that don't require paragraph breaks, for long quotations use <a href="#blockquote">&lt;blockquote&gt;</a> element.</p>
   <p>Sample: <q>This is sample quotation</q></p>
 
+  <h3 class="jmt-section-heading" id="samp"><small>3.8</small> Sample Text Element <code>&lt;samp&gt;</code></h3>
+  <p>The HTML &lt;samp&gt; produces an inline element displayed in the browser's default monotype font (Lucida Console). This element was intended to identify sample output from a computer program.</p>
+  <p>Sample: <samp>Error: no such file or directory</samp></p>
+
+  <h3 class="jmt-section-heading" id="small"><small>3.4</small> Small <code>&lt;small&gt;</code></h3>
+  <p>The HTML &lt;small&gt; element makes the text font size one size smaller (for example, from large to medium, or from small to x-small) down to the browser's minimum font size.  In HTML5, this element is repurposed to represent side-comments and small print, including copyright and legal text, independent of its styled presentation.</p>
+  <p>Sample: <small>Small</small></p>
+
+  <h3 class="jmt-section-heading" id="strong"><small>3.3</small> Strong <code>&lt;strong&gt;</code></h3>
+  <p>The HTML &lt;strong&gt; element gives text strong importance, and is typically displayed in bold.</p>
+  <p>Sample: <strong>This is text with stronger emphasis</strong></p>
+
   <h3 class="jmt-section-heading" id="sup"><small>3.13</small> Subscript and Superscript <code>&lt;sub&gt; &lt;sup&gt;</code> </h3>
+  <p>The HTML &lt;sub&gt; element defines a span of text that should be displayed, for typographic reasons, lower, and often smaller, than the main span of text.</p>
+  <p>The HTML &lt;sup&gt; element defines a span of text that should be displayed, for typographic reasons, higher, and often smaller, than the main span of text.</p>
+  <p>Sample:</p>
   <p>H<sub>2</sub>O</p>
   <p>E = mc<sup>2</sup></p>
   <p>The 14<sup>th</sup> of January</p>
 
-  <h3 class="jmt-section-heading" id="ins"><small>3.14</small> Insert and Delete <code>&lt;ins&gt; &lt;del&gt;</code></h3>
-  <p><ins datetime="20013-04-25T08:15:30+02:00" title="Added new information according to suggestions">This information was just added.</ins><br>
-  <del>While this information is no longer valid.</del></p>
+  <h3 class="jmt-section-heading" id="var"><small>3.10</small> Variable <code>&lt;var&gt;</code></h3>
+  <p>The HTML &lt;var&gt; element represents a variable in a mathematical expression or a programming context.</p>
+  <p>Sample: <var>counter</var></p>
 
   <h2 class="jmt-section-heading" id="controls"><small>4</small> Controls</h2>
 
