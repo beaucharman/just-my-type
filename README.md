@@ -1,6 +1,6 @@
 # Just My Type
 
-> A typography reference, markup guide and stylesheet checklist.
+> A typography reference, element guide and stylesheet checklist.
 
 Tag references from the awesome MDN. Images from Lorempixel.
 
